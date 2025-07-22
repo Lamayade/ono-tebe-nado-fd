@@ -1,0 +1,111 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px;
+    font-size: 18px;
+    text-underline-offset: 4px;
+    line-height: 136%;
+}
+
+.header__logo {
+    display: block;
+    width: 137px;
+}
+
+.address {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__address {
+    max-width: 240px;
+    justify-self: end;
+}
+
+.header__address-list {
+    list-style: none;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 33px;
+}
+
+.header__links-list-item {
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+
+
+.cover {
+    background-image: url("/images/cover.jpg");
+    min-height: 757px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.aligned-text {
+    display: grid;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+    min-height: 200px;
+}
+
+
+.aligned-text_left {
+    justify-self: start;
+    padding-top: 165px;
+    padding-left: 50px;
+}
+
+
+.aligned-text_center {
+    justify-self: center;
+    padding-top: 18px;
+    padding-left: 30px;
+}
+
+
+.aligned-text_right {
+    justify-self: end;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+
+.cover__description {
+    color: #fff;
+    font-size: 21px;
+    letter-spacing: 1px;
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: 2fr 1fr;
+    padding: 105px 50px 50px 50px;
+}
+
+.cover__description-text {
+    word-spacing: 0.77em;
+    justify-self: start;
+}
+
+.bet-button {
+    all: unset;
+    cursor: pointer;
+    border: 1px solid #fff ;
+    text-transform: uppercase;
+    justify-self: end;
+    padding: 12px 29px;
+}

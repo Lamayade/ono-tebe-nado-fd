@@ -17,31 +17,48 @@
             <a class="header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link">посмотреть лоты</a>
+            <a class="header__link" href="#0">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="header__link">об аукционе</a>
+            <a class="header__link" href="#0">об аукционе</a>
           </li>
         </ul>
-        <!--○ на будущее -->
       </nav>
-      <a class="header__logo"></a>
+      <a class="header__logo">
+        <img
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Логотип сайта"
+        />
+      </a>
       <address class="address header__address">
-        +9 999 555 5555
-        info@sobaka.ge
-        наб. Принсенграхт 263- 265, Амстердам
+        <ul class="header__address-list">
+          <li>
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+          </li>
+          <li>
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </li>
+          <li>
+            наб. Принсенграхт 263- 265, Амстердам
+          </li>
+        </ul>
       </address>    
     </header>
     <main>
       <section class="cover">
-        <h1>
-          <span class="">Оно</span>
-          <span class="">тебе</span>
-          <span class="">надо</span>
-        </h1>
-        <div class="description">
-          <p>Аукцион вещей, в которые никто не верил</p>
-          <button>Сделать ставку</button>
+        <div class="overlay">
+          <h1 class="aligned-text">
+            <span class="aligned-text_left">Оно</span>
+            <span class="aligned-text_center">тебе</span>
+            <span class="aligned-text_right">надо</span>
+          </h1>
+          <div class="cover__description">
+            <p class="cover__description-text">
+              Аукцион вещей, в которые никто не верил
+            </p>
+            <button class="bet-button">Сделать ставку</button>
+          </div>
         </div>
       </section>
       <section class="lots">
