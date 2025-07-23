@@ -2,15 +2,15 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px;
+    padding: 92px 50px 94px;
     font-size: 18px;
     text-underline-offset: 4px;
     line-height: 136%;
 }
 
 .header__logo {
-    display: block;
-    width: 137px;
+    display: flex;
+    width: 138px;
 }
 
 .address {
@@ -108,7 +108,7 @@
 }
 
 .lots {
-    padding: 180px 24px;
+    padding: 180px 24px 50px;
 }
 
 .lots__heading {
@@ -180,9 +180,92 @@
 
 .lots__look-more-link {
     display: inline-block;
+    text-decoration: underline;
     text-underline-offset: 4px;
     padding-left: 40px;
     padding-top: 31px;
     font-size: 20px;
-    text-decoration: underline;
+}
+
+.about {
+    padding: 103px 50px 50px;
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "about__logo about__title"
+        ". about__text";
+    align-items: center;
+    font-size: 18px;
+    text-underline-offset: 4px;
+}
+
+.about__column {
+    padding-left: 21px;
+}
+
+.about__logo {
+    grid-area: about__logo;
+    background-color: #000;
+    display: flex;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    place-content: center;
+    place-items: center;
+}
+
+.about__logo-image {
+    width: 148px;
+    height: 114px;
+}
+
+.about__title {
+    grid-area: about__title;
+    text-transform: uppercase;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.about__text {
+    grid-area: about__text;
+    font-size: 20px;
+    line-height: 120%;
+    align-self: start;
+    margin-top: 8px;
+}
+.about__text p {
+    margin-bottom: 24px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: top;
+    padding: 108px 50px 94px;
+    font-size: 18px;
+    text-underline-offset: 4px;
+    line-height: 136%;
+}
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    place-items: center;
+    line-height: 112%;
+}
+
+.footer__social-list {
+    padding-left: 45px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: top;
+    justify-items:right;
+}
+
+.footer__social-icon {
+    height: 48px;
 }
