@@ -6,7 +6,7 @@ https://github.com/Lamayade/ono-tebe-nado-fd
 в культуре.
 
 ## Технологии
-__HTML__
+__HTML__  
 __CSS__
 
 ## Как развернуть проект локально
