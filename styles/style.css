@@ -132,6 +132,7 @@
 
 .card-link {
     height: 100%;
+    text-decoration: none;
 }
 
 .card {
@@ -246,7 +247,7 @@
     padding: 108px 50px 94px;
     font-size: 18px;
     text-underline-offset: 4px;
-    line-height: 136%;
+    line-height: 133%;
 }
 
 .footer__menu-list {
@@ -254,11 +255,11 @@
     flex-direction: column;
     list-style: none;
     place-items: center;
-    line-height: 112%;
+    line-height: 115%;
 }
 
 .footer__social-list {
-    padding-left: 45px;
+    padding-left: 46px;
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
