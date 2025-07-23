@@ -212,8 +212,8 @@
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    place-content: center;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .about__logo-image {
@@ -243,7 +243,7 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: top;
+    align-items: flex-start;
     padding: 108px 50px 94px;
     font-size: 18px;
     text-underline-offset: 4px;
@@ -263,7 +263,7 @@
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: top;
+    align-items: flex-start;
     justify-items:right;
 }
 
